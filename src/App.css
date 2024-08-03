@@ -1,0 +1,26 @@
+:root {
+  --bg-light: #f0f4f8;
+  --text-light: #2d3748;
+  --primary-light: #4a90e2;
+  --secondary-light: #f6f8fa;
+  --accent-light: #38b2ac;
+
+  --bg-dark: #1a202c;
+  --text-dark: #e2e8f0;
+  --primary-dark: #81e6d9;
+  --secondary-dark: #2d3748;
+  --accent-dark: #f6ad55;
+
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  transition: var(--transition);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
